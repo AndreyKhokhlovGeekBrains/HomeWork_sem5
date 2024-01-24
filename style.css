@@ -1,0 +1,248 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+  font-family: "Open Sans";
+  src: url("./fonts/OpenSans-VariableFont_wdth\,wght.ttf");
+}
+
+body {
+  background-color: black;
+}
+
+.header__container {
+  /* max-width: 1920px; */
+  width: 100%;
+  max-height: 100px;
+}
+
+.header__container .group {
+  margin: 0 auto;
+
+  display: flex;
+  padding: 39px 0px;
+  justify-content: center;
+  align-items: center;
+  gap: 32px;
+}
+
+.group__topography {
+  color: #ffffff;
+  font-family: "Open Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-decoration: none;
+}
+
+.content__container {
+  width: 100%;
+}
+
+.content__container .content {
+  max-width: 1146px;
+  min-height: 415px;
+  margin-top: 160px;
+  margin-left: 388px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 128px;
+}
+
+.content__container .content .main__content {
+  justify-content: space-between;
+}
+
+.content__container .content .pic1 {
+  width: 414px;
+  height: 415px;
+  flex-shrink: 0;
+}
+
+.content__container .content .main__content .block1 {
+  margin-bottom: 10px;
+
+  color: #3a68b8;
+  font-family: "Open Sans";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 160%; /* 28.8px */
+  text-transform: uppercase;
+}
+
+.content__container .content .main__content .block2 {
+  min-width: 604px;
+  margin-bottom: 40px;
+
+  color: #fff;
+  font-family: "Open Sans";
+  font-size: 55px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 130%; /* 71.5px */
+}
+
+.content__container .content .main__content .block3 {
+  max-width: 558px;
+  margin-bottom: 50px;
+
+  color: #fff;
+  font-family: "Open Sans";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 160%; /* 28.8px */
+}
+
+.content__container .content .main__content .block__buttons {
+  width: 408px;
+  height: 57px;
+  display: flex;
+  flex-shrink: 0;
+  gap: 20px;
+}
+
+.content__container .content .main__content .block__buttons .button1 {
+  border-radius: 5px;
+  background: #3a68b8;
+
+  display: inline-flex;
+  padding: 15px 30px;
+  align-items: flex-start;
+  /* gap: 10px; */
+}
+
+.content__container .content .main__content .block__buttons .button1 .text {
+  color: #fff;
+  font-family: "Open Sans";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.content__container .content .main__content .block__buttons .button2 {
+  border-radius: 5px;
+  background: #3a68b8;
+
+  display: inline-flex;
+  padding: 15px 30px;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.content__container .content .main__content .block__buttons .button2 .text {
+  color: #fff;
+  font-family: "Open Sans";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.content__container .content .main__content .block__buttons .button2 .play {
+  fill: #fff;
+
+  width: 27px;
+  height: 26px;
+  /* transform: rotate(90deg); */
+}
+
+.block__logo {
+  margin-top: 197px;
+  margin-left: 388px;
+}
+
+.logo__pics {
+  display: flex;
+  width: 1147.297px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.complex__pic{
+  
+}
+
+.img1_1 {
+  width: 54.604px;
+  height: 49.972px;
+  flex-shrink: 0;
+  fill: #e9327c;
+}
+
+.img1_2 {
+  width: 47.868px;
+  height: 45.621px;
+  flex-shrink: 0;
+  fill: var(--3-a-68-b-8, #3a68b8);
+}
+
+.img1_3 {
+  width: 47.868px;
+  height: 45.621px;
+  flex-shrink: 0;
+  fill: #1dace3;
+}
+
+.img2 {
+  width: 88.73px;
+  height: 42.379px;
+  flex-shrink: 0;
+
+  fill: var(--ffffff, #fff);
+}
+
+.img3 {
+  width: 8.076px;
+  height: 32.484px;
+  flex-shrink: 0;
+
+  fill: var(--ffffff, #fff);
+}
+
+.img4 {
+  width: 24.152px;
+  height: 32.047px;
+  flex-shrink: 0;
+
+  fill: var(--ffffff, #fff);
+}
+
+.img5 {
+  width: 18.978px;
+  height: 23.741px;
+  flex-shrink: 0;
+
+  fill: var(--ffffff, #fff);
+}
+
+.img6 {
+  width: 21.535px;
+  height: 23.076px;
+  flex-shrink: 0;
+
+  fill: var(--ffffff, #fff);
+}
+
+.img7 {
+  width: 33.65px;
+  height: 23.092px;
+  flex-shrink: 0;
+
+  fill: var(--ffffff, #fff);
+}
+
+.img8 {
+  width: 9.991px;
+  height: 9.991px;
+  flex-shrink: 0;
+
+  fill: var(--ffffff, #fff);
+}
