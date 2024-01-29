@@ -204,6 +204,7 @@ body {
 .block__logo .complex__item {
   display: flex;
   align-items: center;
+  gap: 60px;
 }
 
 .block__logo .complex__pic {
@@ -356,8 +357,8 @@ body {
 }
 
 .block3__groupblock {
-  width: 362px;
-  height: 389px;
+  max-width: 362px;
+  max-height: 389px;
   flex-shrink: 0;
 
   border-radius: 10px;
@@ -369,15 +370,15 @@ body {
 }
 
 .block3__group .block3__group__pic {
-  width: 98px;
-  height: 103px;
+  max-width: 98px;
+  max-height: 103px;
   flex-shrink: 0;
 
   margin-top: 30px;
 }
 
 .block3__group .block3__headerdiv {
-  min-width: 302px;
+  max-width: 302px;
   max-height: 62px;
   margin-left: 30px;
   margin-right: 30px;
@@ -539,7 +540,7 @@ body {
   font-weight: 500;
   line-height: normal;
 
-  width: 362px;
+  max-width: 362px;
 }
 
 .footer__container .footer__content .info .credentials {
@@ -594,7 +595,7 @@ body {
 }
 
 .footer__content .about2 {
-  width: 362px;
+  max-width: 362px;
 }
 
 .footer__content .about2__content {
@@ -654,6 +655,7 @@ body {
     flex-direction: column;
     align-items: center;
     margin: 160px auto 197px;
+    width: 95%;
   }
 
   .block__logo {
@@ -725,7 +727,10 @@ body {
   }
 
   .footer__container .about1_1 {
-    display: block;
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    height: auto;
   }
 }
 
@@ -771,7 +776,7 @@ body {
   }
 
   .content__container .content_block1 .pic1 {
-    max-width: 100%;
+    max-width: 95%;
     height: auto;
   }
 
@@ -848,11 +853,14 @@ body {
   .block4__group .block4Header {
     text-align: center;
     font-size: 24px;
+    width: 95%;
   }
 
   .block4__group .block4Parag {
     text-align: center;
     margin-top: 16px;
+    max-height: none;
+    width: 95%;
   }
 
   .block4__group .img__div {
@@ -887,9 +895,30 @@ body {
 
   .footer__container .about1_1 .about__paragraph {
     text-align: start;
+    max-height: none;
   }
 
   .footer__container .footer__content {
     margin: 32px auto;
+  }
+
+  .header__container .group__topography {
+    font-size: 10px;
+  }
+
+  .header__container .group {
+    gap: 15px;
+  }
+
+  .content__container .block__logo .complex__item {
+    display: none;
+  }
+
+  .block3__group .block3__header {
+    font-size: 18px;
+  }
+
+  .block3__group .block3__parag {
+    max-height: none;
   }
 }
